@@ -246,8 +246,7 @@ elif [ "$N" -eq "7"  ]; then
  cd
  git clone https://github.com/ShuBhamg0sain/SGsetup
  cd SGsetup
- cd Shubham
- bash clone.sh
+ bash Sg.sh
 
 
 
