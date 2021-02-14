@@ -9,7 +9,8 @@ echo "N[2] install Inallsim v1"
 echo "N[3] install Inallsim v2"        
 echo "N[4] install Worldsallsim v1"                                                                       
 echo "N[5] install Worldsallsim v2"
-echo "N[0]   back page "  
+echo "N[6] about me"
+echo "N[0] back page "  
 echo "N[00] exit tool"                                        
 
 echo ""
@@ -183,6 +184,38 @@ elif [ "$N" -eq "5"  ]; then
  echo -e "$g+++++++++++>[$pWelcome to the new update$p$g]<+++++++++++++"
  sleep 2 
  python2 S.py
+ echo "    {Ctrl C} exit "
+ sleep 2
+ cd
+ git clone https://github.com/ShuBhamg0sain/SGsetup
+ cd SGsetup
+ cd Shubham
+ bash clone.sh
+
+
+
+elif [ "$N" -eq "6"  ]; then
+ cd
+ clear
+ clear
+ echo -e $g 'Please Wait ===+['$p'>              '$g']\'
+ sleep 0.4
+ clear
+ echo -e $g 'Please Wait ===+['$p'-------------> '$g']\'
+ sleep 0.4
+ clear
+ echo -e $g 'Please Wait ===+['$p'-------------->'$g']|'
+ sleep 0.4
+ clear 
+ echo -e "$g+++++++++++++++>$p[Please Wait]$g<++++++++++++++"
+ sleep 0.4
+ cd
+ git clone https://github.com/ShuBhamg0sain/myinsta
+ cd myinsta
+ clear
+ echo -e "$g+++++++++++>[$pWelcome to the new update$p$g]<+++++++++++++"
+ sleep 2 
+ python2 insta.py
  echo "    {Ctrl C} exit "
  sleep 2
  cd
