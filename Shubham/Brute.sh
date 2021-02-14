@@ -13,7 +13,8 @@ echo "N[6] install instagram brute Force"
 echo "N[7] install 4 digit phone pin Brute Force"
 echo "N[8] install 6 digit phone pin Brute Force"
 echo "N[9] install 8 digit phone pin Brute Force"
-echo "N[0]   back to home"                                            
+echo "N[0]   back to home"  
+echo "N[00]  exit tool"                                       
 echo ""
 echo -e "$p"
 read -p  "number-------> " N
@@ -345,6 +346,18 @@ elif [ "$N" -eq "0"  ]; then
  git clone https://github.com/ShuBhamg0sain/SGsetup
  cd SGsetup
  bash Sg.sh
+
+
+
+elif [ "$N" -eq "00"  ]; then
+ cd
+ echo -e "$g+++++++++++++++>$p[Please Wait]$g<++++++++++++++"
+ sleep 0.4
+ cd
+ exit
+ cd $HOME
+ clear
+ sleep 2
 
 
 
