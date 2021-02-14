@@ -3,7 +3,7 @@ p='\033[1;35m'
 clear
 echo -e "\033[1;32m"
 echo "    {Ctrl C} exit "
-echo "welcome to cloning tool for facebook"
+echo "CCTV hack tools"
 echo "N[1] imstall Hack_CCTV_Cam-v.1"                                                                   
 echo "N[2] install Hack_CCTV_Cam-v.2"                                                                       
 echo "N[3] install Hack_CCTV_Cam-v.3" 
