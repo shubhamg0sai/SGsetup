@@ -178,5 +178,5 @@ elif [ "$N" -eq "0"  ]; then
 
 
 else :
- bash clone.sh
+ bash cctv.sh
 fi
