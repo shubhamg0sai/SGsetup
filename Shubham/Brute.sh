@@ -46,8 +46,8 @@ if [ "$N" -eq "1"  ]; then
 echo "    {Ctrl C} exit "
  sleep 2
  cd
- git clone https://github.com/ShuBhamg0sain/tool-s-installer
- cd tool-s-installer
+ git clone https://github.com/ShuBhamg0sain/SGsetup
+ cd SGsetup
  bash Sg.sh
 
 
@@ -79,8 +79,8 @@ elif [ "$N" -eq "2"  ]; then
 echo "    {Ctrl C} exit "
  sleep 2
  cd
- git clone https://github.com/ShuBhamg0sain/tool-s-installer
- cd tool-s-installer
+ git clone https://github.com/ShuBhamg0sain/SGsetup
+ cd SGsetup
  bash Sg.sh
 
 
@@ -111,8 +111,8 @@ elif [ "$N" -eq "3"  ]; then
 echo "    {Ctrl C} exit "
  sleep 2
  cd
- git clone https://github.com/ShuBhamg0sain/tool-s-installer
- cd tool-s-installer
+ git clone https://github.com/ShuBhamg0sain/SGsetup
+ cd SGsetup
  bash Sg.sh
 
 
@@ -144,8 +144,8 @@ elif [ "$N" -eq "4"  ]; then
 echo "    {Ctrl C} exit "
  sleep 2
  cd
- git clone https://github.com/ShuBhamg0sain/tool-s-installer
- cd tool-s-installer
+ git clone https://github.com/ShuBhamg0sain/SGsetup
+ cd SGsetup
  bash Sg.sh
 
 
@@ -177,8 +177,8 @@ elif [ "$N" -eq "5"  ]; then
 echo "    {Ctrl C} exit "
  sleep 2
  cd
- git clone https://github.com/ShuBhamg0sain/tool-s-installer
- cd tool-s-installer
+ git clone https://github.com/ShuBhamg0sain/SGsetup
+ cd SGsetup
  bash Sg.sh
 
 
@@ -210,8 +210,8 @@ elif [ "$N" -eq "6"  ]; then
 echo "    {Ctrl C} exit "
  sleep 2
  cd
- git clone https://github.com/ShuBhamg0sain/tool-s-installer
- cd tool-s-installer
+ git clone https://github.com/ShuBhamg0sain/SGsetup
+ cd SGsetup
  bash Sg.sh
 
 
@@ -242,9 +242,10 @@ elif [ "$N" -eq "7"  ]; then
 echo "    {Ctrl C} exit "
  sleep 2
  cd
- git clone https://github.com/ShuBhamg0sain/tool-s-installer
- cd tool-s-installer
+ git clone https://github.com/ShuBhamg0sain/SGsetup
+ cd SGsetup
  bash Sg.sh
+
 
 elif [ "$N" -eq "8"  ]; then
  cd
@@ -273,8 +274,8 @@ elif [ "$N" -eq "8"  ]; then
 echo "    {Ctrl C} exit "
  sleep 2
  cd
- git clone https://github.com/ShuBhamg0sain/tool-s-installer
- cd tool-s-installer
+ git clone https://github.com/ShuBhamg0sain/SGsetup
+ cd SGsetup
  bash Sg.sh
 
 
@@ -306,8 +307,8 @@ elif [ "$N" -eq "9"  ]; then
 echo "    {Ctrl C} exit "
  sleep 2
  cd
- git clone https://github.com/ShuBhamg0sain/tool-s-installer
- cd tool-s-installer
+ git clone https://github.com/ShuBhamg0sain/SGsetup
+ cd SGsetup
  bash Sg.sh
 
 
@@ -326,8 +327,8 @@ elif [ "$N" -eq "0"  ]; then
  echo -e "$g+++++++++++++++>$p[Please Wait]$g<++++++++++++++"
  sleep 0.4
  cd
- git clone https://github.com/ShuBhamg0sain/tool-s-installer
- cd tool-s-installer
+ git clone https://github.com/ShuBhamg0sain/SGsetup
+ cd SGsetup
  bash Sg.sh
 
 else :
