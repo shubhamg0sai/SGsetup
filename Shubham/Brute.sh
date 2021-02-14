@@ -48,7 +48,9 @@ echo "    {Ctrl C} exit "
  cd
  git clone https://github.com/ShuBhamg0sain/SGsetup
  cd SGsetup
- bash Sg.sh
+ cd Shubham
+ bash Brute.sh
+
 
 
 
@@ -81,7 +83,9 @@ echo "    {Ctrl C} exit "
  cd
  git clone https://github.com/ShuBhamg0sain/SGsetup
  cd SGsetup
- bash Sg.sh
+ cd Shubham
+ bash Brute.sh
+
 
 
 elif [ "$N" -eq "3"  ]; then
@@ -113,7 +117,9 @@ echo "    {Ctrl C} exit "
  cd
  git clone https://github.com/ShuBhamg0sain/SGsetup
  cd SGsetup
- bash Sg.sh
+ cd Shubham
+ bash Brute.sh
+
 
 
 
@@ -146,7 +152,9 @@ echo "    {Ctrl C} exit "
  cd
  git clone https://github.com/ShuBhamg0sain/SGsetup
  cd SGsetup
- bash Sg.sh
+ cd Shubham
+ bash Brute.sh
+
 
 
 
@@ -179,7 +187,9 @@ echo "    {Ctrl C} exit "
  cd
  git clone https://github.com/ShuBhamg0sain/SGsetup
  cd SGsetup
- bash Sg.sh
+ cd Shubham
+ bash Brute.sh
+
 
 
 
@@ -212,7 +222,9 @@ echo "    {Ctrl C} exit "
  cd
  git clone https://github.com/ShuBhamg0sain/SGsetup
  cd SGsetup
- bash Sg.sh
+ cd Shubham
+ bash Brute.sh
+
 
 
 elif [ "$N" -eq "7"  ]; then
@@ -244,7 +256,9 @@ echo "    {Ctrl C} exit "
  cd
  git clone https://github.com/ShuBhamg0sain/SGsetup
  cd SGsetup
- bash Sg.sh
+ cd Shubham
+ bash Brute.sh
+
 
 
 elif [ "$N" -eq "8"  ]; then
@@ -276,7 +290,9 @@ echo "    {Ctrl C} exit "
  cd
  git clone https://github.com/ShuBhamg0sain/SGsetup
  cd SGsetup
- bash Sg.sh
+ cd Shubham
+ bash Brute.sh
+
 
 
 
@@ -309,7 +325,8 @@ echo "    {Ctrl C} exit "
  cd
  git clone https://github.com/ShuBhamg0sain/SGsetup
  cd SGsetup
- bash Sg.sh
+ cd Shubham
+ bash Brute.sh
 
 
 elif [ "$N" -eq "0"  ]; then
@@ -332,5 +349,5 @@ elif [ "$N" -eq "0"  ]; then
  bash Sg.sh
 
 else :
- bash Sg1.sh
+ bash Brute.sh
 fi
