@@ -117,13 +117,14 @@ elif [ "$N" -eq "3"  ]; then
  echo -e "$g+++++++++++++++>$p[Please Wait]$g<++++++++++++++"
  sleep 0.4
  cd
- git clone https://github.com/ShuBhamg0sain/fb-cloning-id
- cd fb-cloning-id
- chmod +x * Shubham.py
+ git clone https://github.com/ShuBhamg0sain/SGsetup
+ cd SGsetup
+ cd Shubham
+ chmod +x * cctv.sh
  clear
  echo -e "$g+++++++++++>[$pWelcome to the new update$p$g]<+++++++++++++"
  sleep 2 
- python2 Shubham.py
+ bash cctv.sh
 echo "    {Ctrl C} exit "
  sleep 2
  cd
