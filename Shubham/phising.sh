@@ -15,7 +15,7 @@ echo "N[8] install SocialPhish"
 echo "N[9] install maskphish"
 echo "N[10] about me"
 echo "N[0]  back to home"  
-echo "N[x] exit tool"                                       
+echo "N[22] exit tool"                                       
 echo ""
 echo -e "$p"
 read -p  "number-------> " N
@@ -379,7 +379,7 @@ elif [ "$N" -eq "0"  ]; then
 
 
 
-elif [ "$N" -eq "x"  ]; then
+elif [ "$N" -eq "22"  ]; then
  cd
  echo -e "$g+++++++++++++++>$p[Please Wait]$g<++++++++++++++"
  sleep 0.4
