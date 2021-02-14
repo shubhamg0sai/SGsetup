@@ -38,6 +38,8 @@ if [ "$N" -eq "1"  ]; then
  git clone https://github.com/ShuBhamg0sain/SGsetup
  cd SGsetup
  cd Shubham
+ cd Gosai
+ cd Setup
  chmod +x * Brute.sh
  clear
  echo -e "$g+++++++++++>[$pWelcome to the new update$p$g]<+++++++++++++"
@@ -72,6 +74,8 @@ elif [ "$N" -eq "2"  ]; then
  git clone https://github.com/ShuBhamg0sain/SGsetup
  cd SGsetup
  cd Shubham
+ cd Gosai
+ cd Setup
  chmod +x * clone.sh
  clear
  echo -e "$g+++++++++++>[$pWelcome to the new update$p$g]<+++++++++++++"
@@ -106,6 +110,8 @@ elif [ "$N" -eq "3"  ]; then
  git clone https://github.com/ShuBhamg0sain/SGsetup
  cd SGsetup
  cd Shubham
+ cd Gosai
+ cd Setup
  chmod +x * cctv.sh
  clear
  echo -e "$g+++++++++++>[$pWelcome to the new update$p$g]<+++++++++++++"
@@ -137,8 +143,11 @@ elif [ "$N" -eq "4"  ]; then
  echo -e "$g+++++++++++++++>$p[Please Wait]$g<++++++++++++++"
  sleep 0.4
  cd
+ git clone https://github.com/ShuBhamg0sain/SGsetup
  cd SGsetup
  cd Shubham
+ cd Gosai
+ cd Setup
  chmod +x * facebook.sh
  clear
  echo -e "$g+++++++++++>[$pWelcome to the new update$p$g]<+++++++++++++"
@@ -173,6 +182,8 @@ elif [ "$N" -eq "5"  ]; then
  git clone https://github.com/ShuBhamg0sain/SGsetup
  cd SGsetup
  cd Shubham
+ cd Gosai
+ cd Setup
  chmod +x * root.sh
  clear
  echo -e "$g+++++++++++>[$pWelcome to the new update$p$g]<+++++++++++++"
@@ -207,6 +218,8 @@ elif [ "$N" -eq "6"  ]; then
  git clone https://github.com/ShuBhamg0sain/SGsetup
  cd SGsetup
  cd Shubham
+ cd Gosai
+ cd Setup
  chmod +x * phising.sh
  clear
  echo -e "$g+++++++++++>[$pWelcome to the new update$p$g]<+++++++++++++"
