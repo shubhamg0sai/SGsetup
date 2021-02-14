@@ -3,7 +3,7 @@ p='\033[1;35m'
 clear
 echo -e "\033[1;32m"
 echo "    {Ctrl C} exit "
-echo " termux root tools tools "
+echo " termux root tools "
 echo "N[1] imstall root termux arch"                                                                 
 echo "N[2] imstall root termux kalilinux". 
 echo "N[3] install root termux ubantu v1"
