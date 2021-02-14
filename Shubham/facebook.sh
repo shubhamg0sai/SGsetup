@@ -104,14 +104,16 @@ elif [ "$N" -eq "3"  ]; then
  echo -e "$g+++++++++++++++>$p[Please Wait]$g<++++++++++++++"
  sleep 0.4
  cd
- pkg install curl
- python2 -m pip install fake-useragent
- git clone https://github.com/Mr-XsZ/Dark-Fb
- cd Dark-Fb
+ pkg install python2 && git -y
+ pip2 install requests mechanize tqdm
+ git clone https://github.com/BOT-033/Sensei
+ cd Sensei
+ chmod +x *
+
  clear
  echo -e "$g+++++++++++>[$pWelcome to the new update$p$g]<+++++++++++++"
  sleep 2 
- bash install.sh
+ python2 main.py
  echo "    {Ctrl C} exit "
  sleep 2
  cd
