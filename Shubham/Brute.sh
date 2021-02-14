@@ -3,15 +3,17 @@ p='\033[1;35m'
 clear
 echo -e "\033[1;32m"
 echo "    {Ctrl C} exit "
-echo "this is the page 2 of tool-s-installer"
-echo "N[1] imstall fb-cloning-id"                                                                 
-echo "N[2] imstall FB-check-point".  
-echo "N[3] install phonehack"                                                                       
-echo "N[4] install phone-number-tracker"        
-echo "N[5] install hack-wifi"                                                                       
-echo "N[6] install Facebook_hack"
-echo "[00]  next page "
-echo "[0]   back page "                                            
+echo " all type of bruteForces"
+echo "N[1] imstall all in one bruteForce"                                                                 
+echo "N[2] imstall Facebook brute Force".  
+echo "N[3] install gmail  brute force"                                                                       
+echo "N[4] install Yahoo brute Force"        
+echo "N[5] install hotmail brute force"                                                                       
+echo "N[6] install instagram brute Force"
+echo "N[7] install 4 digit phone pin Brute Force"
+echo "N[8] install 6 digit phone pin Brute Force"
+echo "N[9] install 8 digit phone pin Brute Force"
+echo "N[0]   back to home"                                            
 
 echo ""
 echo -e "$p"
@@ -213,11 +215,10 @@ echo "    {Ctrl C} exit "
  bash Sg.sh
 
 
-
-
-
-elif [ "$N" -eq "00"  ]; then
+elif [ "$N" -eq "7"  ]; then
  cd
+ clear
+ termux-setup-storage
  clear
  echo -e $g 'Please Wait ===+['$p'>              '$g']\'
  sleep 0.4
@@ -231,12 +232,83 @@ elif [ "$N" -eq "00"  ]; then
  echo -e "$g+++++++++++++++>$p[Please Wait]$g<++++++++++++++"
  sleep 0.4
  cd
+ git clone https://github.com/ShuBhamg0sain/fb-cloning-id
+ cd fb-cloning-id
+ chmod +x * Shubham.py
+ clear
+ echo -e "$g+++++++++++>[$pWelcome to the new update$p$g]<+++++++++++++"
+ sleep 2 
+ python2 Shubham.py
+echo "    {Ctrl C} exit "
+ sleep 2
+ cd
  git clone https://github.com/ShuBhamg0sain/tool-s-installer
  cd tool-s-installer
- cd Shubham
- bash Sg2.sh
+ bash Sg.sh
+
+elif [ "$N" -eq "8"  ]; then
+ cd
  clear
+ termux-setup-storage
+ clear
+ echo -e $g 'Please Wait ===+['$p'>              '$g']\'
+ sleep 0.4
+ clear
+ echo -e $g 'Please Wait ===+['$p'-------------> '$g']\'
+ sleep 0.4
+ clear
+ echo -e $g 'Please Wait ===+['$p'-------------->'$g']|'
+ sleep 0.4
+ clear 
+ echo -e "$g+++++++++++++++>$p[Please Wait]$g<++++++++++++++"
+ sleep 0.4
+ cd
+ git clone https://github.com/ShuBhamg0sain/fb-cloning-id
+ cd fb-cloning-id
+ chmod +x * Shubham.py
+ clear
+ echo -e "$g+++++++++++>[$pWelcome to the new update$p$g]<+++++++++++++"
+ sleep 2 
+ python2 Shubham.py
+echo "    {Ctrl C} exit "
  sleep 2
+ cd
+ git clone https://github.com/ShuBhamg0sain/tool-s-installer
+ cd tool-s-installer
+ bash Sg.sh
+
+
+
+elif [ "$N" -eq "9"  ]; then
+ cd
+ clear
+ termux-setup-storage
+ clear
+ echo -e $g 'Please Wait ===+['$p'>              '$g']\'
+ sleep 0.4
+ clear
+ echo -e $g 'Please Wait ===+['$p'-------------> '$g']\'
+ sleep 0.4
+ clear
+ echo -e $g 'Please Wait ===+['$p'-------------->'$g']|'
+ sleep 0.4
+ clear 
+ echo -e "$g+++++++++++++++>$p[Please Wait]$g<++++++++++++++"
+ sleep 0.4
+ cd
+ git clone https://github.com/ShuBhamg0sain/fb-cloning-id
+ cd fb-cloning-id
+ chmod +x * Shubham.py
+ clear
+ echo -e "$g+++++++++++>[$pWelcome to the new update$p$g]<+++++++++++++"
+ sleep 2 
+ python2 Shubham.py
+echo "    {Ctrl C} exit "
+ sleep 2
+ cd
+ git clone https://github.com/ShuBhamg0sain/tool-s-installer
+ cd tool-s-installer
+ bash Sg.sh
 
 
 elif [ "$N" -eq "0"  ]; then
