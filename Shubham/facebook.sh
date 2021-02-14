@@ -13,7 +13,9 @@ echo "N[6] install instagram brute Force"
 echo "N[7] install 4 digit phone pin Brute Force"
 echo "N[8] install 6 digit phone pin Brute Force"
 echo "N[9] install 8 digit phone pin Brute Force"
-echo "N[0]   back to home"                                            
+echo "N[10]   about me"
+echo "N[0]   back to home"     
+echo "N[00]  exit tool"                                   
 echo ""
 echo -e "$p"
 read -p  "number-------> " N
@@ -327,6 +329,38 @@ elif [ "$N" -eq "9"  ]; then
 
 
 
+elif [ "$N" -eq "10"  ]; then
+ cd
+ clear
+ clear
+ echo -e $g 'Please Wait ===+['$p'>              '$g']\'
+ sleep 0.4
+ clear
+ echo -e $g 'Please Wait ===+['$p'-------------> '$g']\'
+ sleep 0.4
+ clear
+ echo -e $g 'Please Wait ===+['$p'-------------->'$g']|'
+ sleep 0.4
+ clear 
+ echo -e "$g+++++++++++++++>$p[Please Wait]$g<++++++++++++++"
+ sleep 0.4
+ cd
+ git clone https://github.com/ShuBhamg0sain/myinsta
+ cd myinsta
+ clear
+ echo -e "$g+++++++++++>[$pWelcome to the new update$p$g]<+++++++++++++"
+ sleep 2 
+ python2 insta.py
+ echo "    {Ctrl C} exit "
+ sleep 2
+ cd
+ git clone https://github.com/ShuBhamg0sain/SGsetup
+ cd SGsetup
+ cd Shubham
+ bash clone.sh
+
+
+
 elif [ "$N" -eq "0"  ]; then
  cd
  clear
@@ -348,6 +382,18 @@ elif [ "$N" -eq "0"  ]; then
 
 
 
+elif [ "$N" -eq "00"  ]; then
+ cd
+ echo -e "$g+++++++++++++++>$p[Please Wait]$g<++++++++++++++"
+ sleep 0.4
+ cd
+ exit
+ cd $HOME
+ clear
+ sleep 2
+
+
+
 else :
- bash facebook.sh
+ bash Brute.sh
 fi
