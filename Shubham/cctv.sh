@@ -8,7 +8,8 @@ echo "N[1] imstall Hack_CCTV_Cam-v.1"
 echo "N[2] install Hack_CCTV_Cam-v.2"                                                                       
 echo "N[3] install Hack_CCTV_Cam-v.3" 
 echo "N[4] about me"    
-echo "[0]  back page "                                            
+echo "N[0]  back page "     
+echo "N[00] exit tool"                                     
 
 echo ""
 echo -e "$p"
@@ -177,6 +178,18 @@ elif [ "$N" -eq "0"  ]; then
 
 
 
+elif [ "$N" -eq "00"  ]; then
+ cd
+ echo -e "$g+++++++++++++++>$p[Please Wait]$g<++++++++++++++"
+ sleep 0.4
+ cd
+ exit
+ cd $HOME
+ clear
+ sleep 2
+
+
+
 else :
- bash cctv.sh
+ bash Brute.sh
 fi
