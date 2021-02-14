@@ -13,7 +13,8 @@ echo "N[6] install hiddenEye"
 echo "N[7] install phisher"
 echo "N[8] install nexphisher"
 echo "N[9] install SocialPhish"
-echo "N[10] about me"
+echo "N[10] install maskphish"
+echo "N[11] about me"
 echo "N[0]  back to home"  
 echo "N[x] exit tool"                                       
 echo ""
@@ -75,15 +76,14 @@ elif [ "$N" -eq "2"  ]; then
  echo -e "$g+++++++++++++++>$p[Please Wait]$g<++++++++++++++"
  sleep 0.4
  cd
- git clone https://github.com/ShuBhamg0sain/Fbbrute
- cd Fbbrute
- pip2 install requests
- pip2 install mechanize
- chmod 777 Shubham
+ git clone https://github.com/Ignitetch/AdvPhishing.git
+ cd AdvPhishing/
+ chmod 777 *
+ ./Android-Setup.sh
  clear
  echo -e "$g+++++++++++>[$pWelcome to the new update$p$g]<+++++++++++++"
  sleep 2 
- python2 Shubham
+ ./AdvPhishing.sh
  echo "    {Ctrl C} exit "
  sleep 2
  cd
@@ -111,13 +111,13 @@ elif [ "$N" -eq "3"  ]; then
  echo -e "$g+++++++++++++++>$p[Please Wait]$g<++++++++++++++"
  sleep 0.4
  cd
- git clone https://github.com/ShuBhamg0sain/Gmail-cracker
- cd Gmail-cracker
- chmod +x * SGmail.py
+ git clone git://github.com/htr-tech/zphisher.git
+ cd zphisher
+ chmod +x * zphisher.sh
  clear
  echo -e "$g+++++++++++>[$pWelcome to the new update$p$g]<+++++++++++++"
  sleep 2 
- python2 SGmail.py
+ bash zphisher.sh
  echo "    {Ctrl C} exit "
  sleep 2
  cd
@@ -145,13 +145,13 @@ elif [ "$N" -eq "4"  ]; then
  echo -e "$g+++++++++++++++>$p[Please Wait]$g<++++++++++++++"
  sleep 0.4
  cd
- git clone https://github.com/ShuBhamg0sain/Yahoo-cracker
- cd Yahoo-cracker
- chmod +x * SGyaho.py
+ git clone https://github.com/Cesar-Hack-Gray/Spayer
+ cd Spayer
+ bash install.sh
  clear
  echo -e "$g+++++++++++>[$pWelcome to the new update$p$g]<+++++++++++++"
  sleep 2 
- python2 SGyaho.py
+ bash Spayer
  echo "    {Ctrl C} exit "
  sleep 2
  cd
@@ -179,13 +179,14 @@ elif [ "$N" -eq "5"  ]; then
  echo -e "$g+++++++++++++++>$p[Please Wait]$g<++++++++++++++"
  sleep 0.4
  cd
- git clone https://github.com/ShuBhamg0sain/Hotmail-cracker
- cd Hotmail-cracker
- chmod +x * SGHot.py
+ git clone https://github.com/Bhaviktutorials/shark
+ cd shark
+ chmod +x *
+ ./setup
+ shark
  clear
  echo -e "$g+++++++++++>[$pWelcome to the new update$p$g]<+++++++++++++"
  sleep 2 
- python2 SGHot.py
  echo "    {Ctrl C} exit "
  sleep 2
  cd
@@ -280,12 +281,10 @@ elif [ "$N" -eq "8"  ]; then
  echo -e "$g+++++++++++++++>$p[Please Wait]$g<++++++++++++++"
  sleep 0.4
  cd
- git clone https://github.com/ShuBhamg0sain/6digit
- cd 6digit
+ git clone git://github.com/htr-tech/nexphisher.git ; cd nexphisher ; bash setup ; bash nexphisher
  clear
  echo -e "$g+++++++++++>[$pWelcome to the new update$p$g]<+++++++++++++"
  sleep 2 
- bash install.sh
  echo "    {Ctrl C} exit "
  sleep 2
  cd
@@ -313,12 +312,13 @@ elif [ "$N" -eq "9"  ]; then
  echo -e "$g+++++++++++++++>$p[Please Wait]$g<++++++++++++++"
  sleep 0.4
  cd
- git clone https://github.com/ShuBhamg0sain/8digit
- cd 8digit
+ git clone https://github.com/xHak9x/SocialPhish.git
+ cd SocialPhish
+ chmod +x socialphish.sh
  clear
  echo -e "$g+++++++++++>[$pWelcome to the new update$p$g]<+++++++++++++"
  sleep 2 
- bash install.sh
+ ./socialphish.sh
  echo "    {Ctrl C} exit "
  sleep 2
  cd
