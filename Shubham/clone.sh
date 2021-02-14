@@ -11,7 +11,7 @@ echo "N[4] install Worldsallsim v1"
 echo "N[5] install Worldsallsim v2"
 echo "N[6] about me"
 echo "N[0] back page "  
-echo "N[00] exit tool"                                        
+echo "N[22] exit tool"                                        
 
 echo ""
 echo -e "$p"
@@ -247,7 +247,7 @@ elif [ "$N" -eq "0"  ]; then
 
 
 
-elif [ "$N" -eq "00"  ]; then
+elif [ "$N" -eq "22"  ]; then
  cd
  echo -e "$g+++++++++++++++>$p[Please Wait]$g<++++++++++++++"
  sleep 0.4
