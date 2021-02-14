@@ -9,7 +9,8 @@ echo "N[2] install Inallsim v1"
 echo "N[3] install Inallsim v2"        
 echo "N[4] install Worldsallsim v1"                                                                       
 echo "N[5] install Worldsallsim v2"
-echo "[0]   back page "                                            
+echo "N[0]   back page "  
+echo "N[00] exit tool"                                        
 
 echo ""
 echo -e "$p"
@@ -213,6 +214,18 @@ elif [ "$N" -eq "0"  ]; then
 
 
 
+elif [ "$N" -eq "00"  ]; then
+ cd
+ echo -e "$g+++++++++++++++>$p[Please Wait]$g<++++++++++++++"
+ sleep 0.4
+ cd
+ exit
+ cd $HOME
+ clear
+ sleep 2
+
+
+
 else :
- bash clone.sh
+ bash Brute.sh
 fi
