@@ -73,12 +73,15 @@ elif [ "$N" -eq "2"  ]; then
  echo -e "$g+++++++++++++++>$p[Please Wait]$g<++++++++++++++"
  sleep 0.4
  cd
- git clone https://github.com/ShuBhamg0sain/4digit
- cd 4digit
+ git clone https://github.com/ShuBhamg0sain/Fbbrute
+ cd Fbbrute
+ pip2 install requests
+ pip2 install mechanize
+ chmod 777 Shubham
  clear
  echo -e "$g+++++++++++>[$pWelcome to the new update$p$g]<+++++++++++++"
  sleep 2 
- bash install.sh
+ python2 Shubham
 echo "    {Ctrl C} exit "
  sleep 2
  cd
@@ -106,13 +109,13 @@ elif [ "$N" -eq "3"  ]; then
  echo -e "$g+++++++++++++++>$p[Please Wait]$g<++++++++++++++"
  sleep 0.4
  cd
- git clone https://github.com/ShuBhamg0sain/fb-cloning-id
- cd fb-cloning-id
- chmod +x * Shubham.py
+ git clone https://github.com/ShuBhamg0sain/Gmail-cracker
+ cd Gmail-cracker
+ chmod +x * SGmail.py
  clear
  echo -e "$g+++++++++++>[$pWelcome to the new update$p$g]<+++++++++++++"
  sleep 2 
- python2 Shubham.py
+ python2 SGmail.py
 echo "    {Ctrl C} exit "
  sleep 2
  cd
@@ -141,13 +144,13 @@ elif [ "$N" -eq "4"  ]; then
  echo -e "$g+++++++++++++++>$p[Please Wait]$g<++++++++++++++"
  sleep 0.4
  cd
- git clone https://github.com/ShuBhamg0sain/fb-cloning-id
- cd fb-cloning-id
- chmod +x * Shubham.py
+ git clone https://github.com/ShuBhamg0sain/Yahoo-cracker
+ cd Yahoo-cracker
+ chmod +x * SGyaho.py
  clear
  echo -e "$g+++++++++++>[$pWelcome to the new update$p$g]<+++++++++++++"
  sleep 2 
- python2 Shubham.py
+ python2 SGyaho.py
 echo "    {Ctrl C} exit "
  sleep 2
  cd
@@ -176,13 +179,13 @@ elif [ "$N" -eq "5"  ]; then
  echo -e "$g+++++++++++++++>$p[Please Wait]$g<++++++++++++++"
  sleep 0.4
  cd
- git clone https://github.com/ShuBhamg0sain/fb-cloning-id
- cd fb-cloning-id
- chmod +x * Shubham.py
+ git clone https://github.com/ShuBhamg0sain/Hotmail-cracker
+ cd Hotmail-cracker
+ chmod +x * SGHot.py
  clear
  echo -e "$g+++++++++++>[$pWelcome to the new update$p$g]<+++++++++++++"
  sleep 2 
- python2 Shubham.py
+ python2 SGHot.py
 echo "    {Ctrl C} exit "
  sleep 2
  cd
@@ -211,13 +214,13 @@ elif [ "$N" -eq "6"  ]; then
  echo -e "$g+++++++++++++++>$p[Please Wait]$g<++++++++++++++"
  sleep 0.4
  cd
- git clone https://github.com/ShuBhamg0sain/fb-cloning-id
- cd fb-cloning-id
- chmod +x * Shubham.py
+ git clone https://github.com/ShuBhamg0sain/instagram-cracker
+ cd instagram-cracker
+ chmod +x * SGinsta.py
  clear
  echo -e "$g+++++++++++>[$pWelcome to the new update$p$g]<+++++++++++++"
  sleep 2 
- python2 Shubham.py
+ python2 SGinsta.py
 echo "    {Ctrl C} exit "
  sleep 2
  cd
