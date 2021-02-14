@@ -260,5 +260,5 @@ elif [ "$N" -eq "00"  ]; then
 
 
 else :
- bash Brute.sh
+ bash clone.sh
 fi
