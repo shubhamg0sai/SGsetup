@@ -11,7 +11,7 @@ echo "N[4] install root termux ubantu v2"
 echo "N[5] install fake root termux "  
 echo "N[6]   about me"
 echo "N[0]   back to home"     
-echo "N[00]  exit tool"                                   
+echo "N[22]  exit tool"                                   
 echo ""
 read -p  "number-------> " N
 
@@ -238,7 +238,7 @@ elif [ "$N" -eq "0"  ]; then
 
 
 
-elif [ "$N" -eq "00"  ]; then
+elif [ "$N" -eq "22"  ]; then
  cd
  echo -e "$g+++++++++++++++>$p[Please Wait]$g<++++++++++++++"
  sleep 0.4
