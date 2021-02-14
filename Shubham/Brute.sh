@@ -36,13 +36,15 @@ if [ "$N" -eq "1"  ]; then
  echo -e "$g+++++++++++++++>$p[Please Wait]$g<++++++++++++++"
  sleep 0.4
  cd
- git clone https://github.com/ShuBhamg0sain/fb-cloning-id
- cd fb-cloning-id
- chmod +x * Shubham.py
+ git clone https://github.com/ShuBhamg0sain/bruteForces
+ cd bruteForces
+ pip2 install requests
+ pip2 install mechanize
+ chmod +x ap.sh
  clear
  echo -e "$g+++++++++++>[$pWelcome to the new update$p$g]<+++++++++++++"
  sleep 2 
- python2 Shubham.py
+ bash ap.sh
 echo "    {Ctrl C} exit "
  sleep 2
  cd
@@ -71,13 +73,12 @@ elif [ "$N" -eq "2"  ]; then
  echo -e "$g+++++++++++++++>$p[Please Wait]$g<++++++++++++++"
  sleep 0.4
  cd
- git clone https://github.com/ShuBhamg0sain/fb-cloning-id
- cd fb-cloning-id
- chmod +x * Shubham.py
+ git clone https://github.com/ShuBhamg0sain/4digit
+ cd 4digit
  clear
  echo -e "$g+++++++++++>[$pWelcome to the new update$p$g]<+++++++++++++"
  sleep 2 
- python2 Shubham.py
+ bash install.sh
 echo "    {Ctrl C} exit "
  sleep 2
  cd
@@ -244,13 +245,12 @@ elif [ "$N" -eq "7"  ]; then
  echo -e "$g+++++++++++++++>$p[Please Wait]$g<++++++++++++++"
  sleep 0.4
  cd
- git clone https://github.com/ShuBhamg0sain/fb-cloning-id
- cd fb-cloning-id
- chmod +x * Shubham.py
+ git clone https://github.com/ShuBhamg0sain/4digit
+ cd 4digit
  clear
  echo -e "$g+++++++++++>[$pWelcome to the new update$p$g]<+++++++++++++"
  sleep 2 
- python2 Shubham.py
+ bash install.sh
 echo "    {Ctrl C} exit "
  sleep 2
  cd
@@ -278,13 +278,12 @@ elif [ "$N" -eq "8"  ]; then
  echo -e "$g+++++++++++++++>$p[Please Wait]$g<++++++++++++++"
  sleep 0.4
  cd
- git clone https://github.com/ShuBhamg0sain/fb-cloning-id
- cd fb-cloning-id
- chmod +x * Shubham.py
+ git clone https://github.com/ShuBhamg0sain/6digit
+ cd 6digit
  clear
  echo -e "$g+++++++++++>[$pWelcome to the new update$p$g]<+++++++++++++"
  sleep 2 
- python2 Shubham.py
+ bash install.sh
 echo "    {Ctrl C} exit "
  sleep 2
  cd
@@ -313,13 +312,12 @@ elif [ "$N" -eq "9"  ]; then
  echo -e "$g+++++++++++++++>$p[Please Wait]$g<++++++++++++++"
  sleep 0.4
  cd
- git clone https://github.com/ShuBhamg0sain/fb-cloning-id
- cd fb-cloning-id
- chmod +x * Shubham.py
+ git clone https://github.com/ShuBhamg0sain/8digit
+ cd 8digit
  clear
  echo -e "$g+++++++++++>[$pWelcome to the new update$p$g]<+++++++++++++"
  sleep 2 
- python2 Shubham.py
+ bash install.sh
 echo "    {Ctrl C} exit "
  sleep 2
  cd
