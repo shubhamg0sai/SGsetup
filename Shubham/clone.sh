@@ -238,6 +238,5 @@ elif [ "$N" -eq "0"  ]; then
  bash Sg.sh
 
 else :
- cd Shubham
  bash clone.sh
 fi
