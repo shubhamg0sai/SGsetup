@@ -7,7 +7,7 @@ echo "welcome to SGsetup"
 echo "N[1]  all types of bruteForces"                                                                 
 echo "N[2]  Facebook cloning I'd tools".  
 echo "N[3]  CCTV camera Hack"                                                                       
-echo "N[4] phone-number-tracker"        
+echo "N[4]  Facebook tools"        
 echo "N[5]  hack-wifi"                                                                       
 echo "N[6] Facebook_hack"
 echo "N[7]  basic-installtion-comands"                                                       
@@ -151,13 +151,13 @@ elif [ "$N" -eq "4"  ]; then
  echo -e "$g+++++++++++++++>$p[Please Wait]$g<++++++++++++++"
  sleep 0.4
  cd
- git clone https://github.com/ShuBhamg0sain/fb-cloning-id
- cd fb-cloning-id
- chmod +x * Shubham.py
+ cd SGsetup
+ cd Shubham
+ chmod +x * facebook.sh
  clear
  echo -e "$g+++++++++++>[$pWelcome to the new update$p$g]<+++++++++++++"
  sleep 2 
- python2 Shubham.py
+ bash facebook.sh
 echo "    {Ctrl C} exit "
  sleep 2
  cd
