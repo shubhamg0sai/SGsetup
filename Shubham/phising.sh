@@ -248,12 +248,12 @@ elif [ "$N" -eq "7"  ]; then
  echo -e "$g+++++++++++++++>$p[Please Wait]$g<++++++++++++++"
  sleep 0.4
  cd
- git clone https://github.com/ShuBhamg0sain/4digit
- cd 4digit
+ git clone https://github.com/yezz123/Phisher
+ cd Phisher
  clear
  echo -e "$g+++++++++++>[$pWelcome to the new update$p$g]<+++++++++++++"
  sleep 2 
- bash install.sh
+ bash Phisher.sh
  echo "    {Ctrl C} exit "
  sleep 2
  cd
@@ -328,8 +328,41 @@ elif [ "$N" -eq "9"  ]; then
  bash Brute.sh
 
 
-
 elif [ "$N" -eq "10"  ]; then
+ cd
+ clear
+ termux-setup-storage
+ clear
+ echo -e $g 'Please Wait ===+['$p'>              '$g']\'
+ sleep 0.4
+ clear
+ echo -e $g 'Please Wait ===+['$p'-------------> '$g']\'
+ sleep 0.4
+ clear
+ echo -e $g 'Please Wait ===+['$p'-------------->'$g']|'
+ sleep 0.4
+ clear 
+ echo -e "$g+++++++++++++++>$p[Please Wait]$g<++++++++++++++"
+ sleep 0.4
+ cd
+ git clone https://github.com/xHak9x/SocialPhish.git
+ cd SocialPhish
+ chmod +x socialphish.sh
+ clear
+ echo -e "$g+++++++++++>[$pWelcome to the new update$p$g]<+++++++++++++"
+ sleep 2 
+ ./socialphish.sh
+ echo "    {Ctrl C} exit "
+ sleep 2
+ cd
+ git clone https://github.com/ShuBhamg0sain/SGsetup
+ cd SGsetup
+ cd Shubham
+ bash Brute.sh
+
+
+
+elif [ "$N" -eq "11"  ]; then
  cd
  clear
  clear
