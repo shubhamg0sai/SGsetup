@@ -30,6 +30,8 @@ echo ""
 echo -e "$p"
 read -p  "number-------> " N
 
+
+
 if [ "$N" -eq "1"  ]; then
  cd
  clear
@@ -95,6 +97,7 @@ echo "    {Ctrl C} exit "
  git clone https://github.com/ShuBhamg0sain/SGsetup
  cd SGsetup
  bash Sg.sh
+
 
 
 elif [ "$N" -eq "3"  ]; then
