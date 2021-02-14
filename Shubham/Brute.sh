@@ -15,7 +15,7 @@ echo "N[8] install 6 digit phone pin Brute Force"
 echo "N[9] install 8 digit phone pin Brute Force"
 echo "N[10] about me"
 echo "N[0]   back to home"  
-echo "N[00]  exit tool"                                       
+echo "N[22]  exit tool"                                       
 echo ""
 echo -e "$p"
 read -p  "number-------> " N
@@ -382,7 +382,7 @@ elif [ "$N" -eq "0"  ]; then
 
 
 
-elif [ "$N" -eq "00"  ]; then
+elif [ "$N" -eq "22"  ]; then
  cd
  echo -e "$g+++++++++++++++>$p[Please Wait]$g<++++++++++++++"
  sleep 0.4
