@@ -308,13 +308,13 @@ elif [ "$N" -eq "9"  ]; then
  echo -e "$g+++++++++++++++>$p[Please Wait]$g<++++++++++++++"
  sleep 0.4
  cd
- git clone https://github.com/xHak9x/SocialPhish.git
- cd SocialPhish
- chmod +x socialphish.sh
+ git clone https://github.com/jaykali/maskphish
+ cd maskphish
+ chmod +x maskphish.sh
  clear
  echo -e "$g+++++++++++>[$pWelcome to the new update$p$g]<+++++++++++++"
  sleep 2 
- ./socialphish.sh
+ bash maskphish.sh
  echo "    {Ctrl C} exit "
  sleep 2
  cd
