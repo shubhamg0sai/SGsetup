@@ -49,7 +49,7 @@ echo "    {Ctrl C} exit "
  git clone https://github.com/ShuBhamg0sain/SGsetup
  cd SGsetup
  cd Shubham
- bash clone.sh
+ bash cctv.sh
 
 
 
@@ -85,7 +85,7 @@ elif [ "$N" -eq "2"  ]; then
  git clone https://github.com/ShuBhamg0sain/SGsetup
  cd SGsetup
  cd Shubham
- bash clone.sh
+ bash cctv.sh
 
 
 
@@ -121,7 +121,7 @@ echo "    {Ctrl C} exit "
  git clone https://github.com/ShuBhamg0sain/SGsetup
  cd SGsetup
  cd Shubham
- bash clone.sh
+ bash cctv.sh
 
 
 
@@ -153,7 +153,7 @@ elif [ "$N" -eq "4"  ]; then
  git clone https://github.com/ShuBhamg0sain/SGsetup
  cd SGsetup
  cd Shubham
- bash clone.sh
+ bash cctv.sh
 
 
 
@@ -191,5 +191,5 @@ elif [ "$N" -eq "00"  ]; then
 
 
 else :
- bash Brute.sh
+ bash cctv.sh
 fi
