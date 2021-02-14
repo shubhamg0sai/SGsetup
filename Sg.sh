@@ -6,7 +6,7 @@ echo "    {Ctrl C} exit "
 echo "welcome to SGsetup"
 echo "N[1]  all types of bruteForces"                                                                 
 echo "N[2]  Facebook cloning I'd tools".  
-echo "N[3]  phonehack"                                                                       
+echo "N[3]  CCTV camera Hack"                                                                       
 echo "N[4] phone-number-tracker"        
 echo "N[5]  hack-wifi"                                                                       
 echo "N[6] Facebook_hack"
