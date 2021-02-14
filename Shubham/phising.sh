@@ -291,6 +291,7 @@ elif [ "$N" -eq "8"  ]; then
  bash Brute.sh
 
 
+
 elif [ "$N" -eq "9"  ]; then
  cd
  clear
