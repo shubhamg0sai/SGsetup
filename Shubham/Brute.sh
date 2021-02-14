@@ -14,10 +14,11 @@ echo "N[7] install 4 digit phone pin Brute Force"
 echo "N[8] install 6 digit phone pin Brute Force"
 echo "N[9] install 8 digit phone pin Brute Force"
 echo "N[0]   back to home"                                            
-
 echo ""
 echo -e "$p"
 read -p  "number-------> " N
+
+
 
 if [ "$N" -eq "1"  ]; then
  cd
@@ -45,14 +46,13 @@ if [ "$N" -eq "1"  ]; then
  echo -e "$g+++++++++++>[$pWelcome to the new update$p$g]<+++++++++++++"
  sleep 2 
  bash ap.sh
-echo "    {Ctrl C} exit "
+ echo "    {Ctrl C} exit "
  sleep 2
  cd
  git clone https://github.com/ShuBhamg0sain/SGsetup
  cd SGsetup
  cd Shubham
  bash Brute.sh
-
 
 
 
@@ -82,7 +82,7 @@ elif [ "$N" -eq "2"  ]; then
  echo -e "$g+++++++++++>[$pWelcome to the new update$p$g]<+++++++++++++"
  sleep 2 
  python2 Shubham
-echo "    {Ctrl C} exit "
+ echo "    {Ctrl C} exit "
  sleep 2
  cd
  git clone https://github.com/ShuBhamg0sain/SGsetup
@@ -116,14 +116,13 @@ elif [ "$N" -eq "3"  ]; then
  echo -e "$g+++++++++++>[$pWelcome to the new update$p$g]<+++++++++++++"
  sleep 2 
  python2 SGmail.py
-echo "    {Ctrl C} exit "
+ echo "    {Ctrl C} exit "
  sleep 2
  cd
  git clone https://github.com/ShuBhamg0sain/SGsetup
  cd SGsetup
  cd Shubham
  bash Brute.sh
-
 
 
 
@@ -151,14 +150,13 @@ elif [ "$N" -eq "4"  ]; then
  echo -e "$g+++++++++++>[$pWelcome to the new update$p$g]<+++++++++++++"
  sleep 2 
  python2 SGyaho.py
-echo "    {Ctrl C} exit "
+ echo "    {Ctrl C} exit "
  sleep 2
  cd
  git clone https://github.com/ShuBhamg0sain/SGsetup
  cd SGsetup
  cd Shubham
  bash Brute.sh
-
 
 
 
@@ -186,14 +184,13 @@ elif [ "$N" -eq "5"  ]; then
  echo -e "$g+++++++++++>[$pWelcome to the new update$p$g]<+++++++++++++"
  sleep 2 
  python2 SGHot.py
-echo "    {Ctrl C} exit "
+ echo "    {Ctrl C} exit "
  sleep 2
  cd
  git clone https://github.com/ShuBhamg0sain/SGsetup
  cd SGsetup
  cd Shubham
  bash Brute.sh
-
 
 
 
@@ -221,7 +218,7 @@ elif [ "$N" -eq "6"  ]; then
  echo -e "$g+++++++++++>[$pWelcome to the new update$p$g]<+++++++++++++"
  sleep 2 
  python2 SGinsta.py
-echo "    {Ctrl C} exit "
+ echo "    {Ctrl C} exit "
  sleep 2
  cd
  git clone https://github.com/ShuBhamg0sain/SGsetup
@@ -254,7 +251,7 @@ elif [ "$N" -eq "7"  ]; then
  echo -e "$g+++++++++++>[$pWelcome to the new update$p$g]<+++++++++++++"
  sleep 2 
  bash install.sh
-echo "    {Ctrl C} exit "
+ echo "    {Ctrl C} exit "
  sleep 2
  cd
  git clone https://github.com/ShuBhamg0sain/SGsetup
@@ -287,14 +284,13 @@ elif [ "$N" -eq "8"  ]; then
  echo -e "$g+++++++++++>[$pWelcome to the new update$p$g]<+++++++++++++"
  sleep 2 
  bash install.sh
-echo "    {Ctrl C} exit "
+ echo "    {Ctrl C} exit "
  sleep 2
  cd
  git clone https://github.com/ShuBhamg0sain/SGsetup
  cd SGsetup
  cd Shubham
  bash Brute.sh
-
 
 
 
@@ -321,13 +317,14 @@ elif [ "$N" -eq "9"  ]; then
  echo -e "$g+++++++++++>[$pWelcome to the new update$p$g]<+++++++++++++"
  sleep 2 
  bash install.sh
-echo "    {Ctrl C} exit "
+ echo "    {Ctrl C} exit "
  sleep 2
  cd
  git clone https://github.com/ShuBhamg0sain/SGsetup
  cd SGsetup
  cd Shubham
  bash Brute.sh
+
 
 
 elif [ "$N" -eq "0"  ]; then
@@ -348,6 +345,8 @@ elif [ "$N" -eq "0"  ]; then
  git clone https://github.com/ShuBhamg0sain/SGsetup
  cd SGsetup
  bash Sg.sh
+
+
 
 else :
  bash Brute.sh
