@@ -18,6 +18,9 @@ read -p  "number-------> " N
 
 
 
+
+
+
 if [ "$N" -eq "1"  ]; then
  cd
  clear
@@ -51,6 +54,9 @@ echo "    {Ctrl C} exit "
  git clone https://github.com/ShuBhamg0sain/SGsetup
  cd SGsetup
  bash Sg.sh
+
+
+
 
 
 
@@ -90,6 +96,9 @@ echo "    {Ctrl C} exit "
 
 
 
+
+
+
 elif [ "$N" -eq "3"  ]; then
  cd
  clear
@@ -123,6 +132,9 @@ echo "    {Ctrl C} exit "
  git clone https://github.com/ShuBhamg0sain/SGsetup
  cd SGsetup
  bash Sg.sh
+
+
+
 
 
 
@@ -162,6 +174,9 @@ echo "    {Ctrl C} exit "
 
 
 
+
+
+
 elif [ "$N" -eq "5"  ]; then
  cd
  clear
@@ -195,6 +210,9 @@ echo "    {Ctrl C} exit "
  git clone https://github.com/ShuBhamg0sain/SGsetup
  cd SGsetup
  bash Sg.sh
+
+
+
 
 
 
@@ -232,6 +250,11 @@ echo "    {Ctrl C} exit "
  cd SGsetup
  bash Sg.sh
 
+
+
+
+
+
 elif [ "$N" -eq "7"  ]; then
  cd
  clear
@@ -263,6 +286,9 @@ elif [ "$N" -eq "7"  ]; then
 
 
 
+
+
+
 elif [ "$N" -eq "0"  ]; then
  cd
  echo -e "$g+++++++++++++++>$p[Please Wait]$g<++++++++++++++"
@@ -272,6 +298,9 @@ elif [ "$N" -eq "0"  ]; then
  cd $HOME
  clear
  sleep 2
+
+
+
 
 
 
