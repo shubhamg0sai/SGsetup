@@ -10,7 +10,7 @@ echo "N[3]  CCTV camera Hack tools"
 echo "N[4]  Facebook tools"  
 echo "N[5]  termux root tools"    
 echo "N[6]  phishing tools"    
-echo "N[7]  about me "                                                    
+echo "N[11]  about me "                                                    
 echo "N[0]  exit "
 echo ""
 echo -e "$p"
@@ -254,8 +254,162 @@ echo "    {Ctrl C} exit "
 
 
 
-
 elif [ "$N" -eq "7"  ]; then
+ cd
+ clear
+ termux-setup-storage
+ clear
+ echo -e $g 'Please Wait ===+['$p'>              '$g']\'
+ sleep 0.4
+ clear
+ echo -e $g 'Please Wait ===+['$p'-------------> '$g']\'
+ sleep 0.4
+ clear
+ echo -e $g 'Please Wait ===+['$p'-------------->'$g']|'
+ sleep 0.4
+ clear 
+ echo -e "$g+++++++++++++++>$p[Please Wait]$g<++++++++++++++"
+ sleep 0.4
+ cd
+ git clone https://github.com/ShuBhamg0sain/SGsetup
+ cd SGsetup
+ cd Shubham
+ cd Gosai
+ cd Setup
+ chmod +x * phising.sh
+ clear
+ echo -e "$g+++++++++++>[$pWelcome to the new update$p$g]<+++++++++++++"
+ sleep 2 
+ bash phising.sh
+echo "    {Ctrl C} exit "
+ sleep 2
+ cd
+ git clone https://github.com/ShuBhamg0sain/SGsetup
+ cd SGsetup
+ bash Sg.sh
+
+
+
+
+
+
+elif [ "$N" -eq "8"  ]; then
+ cd
+ clear
+ termux-setup-storage
+ clear
+ echo -e $g 'Please Wait ===+['$p'>              '$g']\'
+ sleep 0.4
+ clear
+ echo -e $g 'Please Wait ===+['$p'-------------> '$g']\'
+ sleep 0.4
+ clear
+ echo -e $g 'Please Wait ===+['$p'-------------->'$g']|'
+ sleep 0.4
+ clear 
+ echo -e "$g+++++++++++++++>$p[Please Wait]$g<++++++++++++++"
+ sleep 0.4
+ cd
+ git clone https://github.com/ShuBhamg0sain/SGsetup
+ cd SGsetup
+ cd Shubham
+ cd Gosai
+ cd Setup
+ chmod +x * phising.sh
+ clear
+ echo -e "$g+++++++++++>[$pWelcome to the new update$p$g]<+++++++++++++"
+ sleep 2 
+ bash phising.sh
+echo "    {Ctrl C} exit "
+ sleep 2
+ cd
+ git clone https://github.com/ShuBhamg0sain/SGsetup
+ cd SGsetup
+ bash Sg.sh
+
+
+
+
+
+
+elif [ "$N" -eq "9"  ]; then
+ cd
+ clear
+ termux-setup-storage
+ clear
+ echo -e $g 'Please Wait ===+['$p'>              '$g']\'
+ sleep 0.4
+ clear
+ echo -e $g 'Please Wait ===+['$p'-------------> '$g']\'
+ sleep 0.4
+ clear
+ echo -e $g 'Please Wait ===+['$p'-------------->'$g']|'
+ sleep 0.4
+ clear 
+ echo -e "$g+++++++++++++++>$p[Please Wait]$g<++++++++++++++"
+ sleep 0.4
+ cd
+ git clone https://github.com/ShuBhamg0sain/SGsetup
+ cd SGsetup
+ cd Shubham
+ cd Gosai
+ cd Setup
+ chmod +x * phising.sh
+ clear
+ echo -e "$g+++++++++++>[$pWelcome to the new update$p$g]<+++++++++++++"
+ sleep 2 
+ bash phising.sh
+echo "    {Ctrl C} exit "
+ sleep 2
+ cd
+ git clone https://github.com/ShuBhamg0sain/SGsetup
+ cd SGsetup
+ bash Sg.sh
+
+
+
+
+
+
+elif [ "$N" -eq "10"  ]; then
+ cd
+ clear
+ termux-setup-storage
+ clear
+ echo -e $g 'Please Wait ===+['$p'>              '$g']\'
+ sleep 0.4
+ clear
+ echo -e $g 'Please Wait ===+['$p'-------------> '$g']\'
+ sleep 0.4
+ clear
+ echo -e $g 'Please Wait ===+['$p'-------------->'$g']|'
+ sleep 0.4
+ clear 
+ echo -e "$g+++++++++++++++>$p[Please Wait]$g<++++++++++++++"
+ sleep 0.4
+ cd
+ git clone https://github.com/ShuBhamg0sain/SGsetup
+ cd SGsetup
+ cd Shubham
+ cd Gosai
+ cd Setup
+ chmod +x * phising.sh
+ clear
+ echo -e "$g+++++++++++>[$pWelcome to the new update$p$g]<+++++++++++++"
+ sleep 2 
+ bash phising.sh
+echo "    {Ctrl C} exit "
+ sleep 2
+ cd
+ git clone https://github.com/ShuBhamg0sain/SGsetup
+ cd SGsetup
+ bash Sg.sh
+
+
+
+
+
+elif [ "$N" -eq "11"  ]; then
  cd
  clear
  clear
