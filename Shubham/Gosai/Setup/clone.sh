@@ -19,6 +19,9 @@ read -p  "number-------> " N
 
 
 
+
+
+
 if [ "$N" -eq "1"  ]; then
  cd
  clear
@@ -51,6 +54,9 @@ echo "    {Ctrl C} exit "
  cd SGsetup
  cd Shubham
  bash clone.sh
+
+
+
 
 
 
@@ -89,6 +95,9 @@ elif [ "$N" -eq "2"  ]; then
 
 
 
+
+
+
 elif [ "$N" -eq "3"  ]; then
  cd
  clear
@@ -121,6 +130,9 @@ echo "    {Ctrl C} exit "
  cd SGsetup
  cd Shubham
  bash clone.sh
+
+
+
 
 
 
@@ -159,6 +171,9 @@ elif [ "$N" -eq "4"  ]; then
 
 
 
+
+
+
 elif [ "$N" -eq "5"  ]; then
  cd
  clear
@@ -194,6 +209,9 @@ elif [ "$N" -eq "5"  ]; then
 
 
 
+
+
+
 elif [ "$N" -eq "6"  ]; then
  cd
  clear
@@ -226,6 +244,9 @@ elif [ "$N" -eq "6"  ]; then
 
 
 
+
+
+
 elif [ "$N" -eq "0"  ]; then
  cd
  clear
@@ -247,6 +268,9 @@ elif [ "$N" -eq "0"  ]; then
 
 
 
+
+
+
 elif [ "$N" -eq "22"  ]; then
  cd
  echo -e "$g+++++++++++++++>$p[Please Wait]$g<++++++++++++++"
@@ -256,6 +280,9 @@ elif [ "$N" -eq "22"  ]; then
  cd $HOME
  clear
  sleep 2
+
+
+
 
 
 
