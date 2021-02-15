@@ -52,7 +52,9 @@ if [ "$N" -eq "1"  ]; then
  git clone https://github.com/ShuBhamg0sain/SGsetup
  cd SGsetup
  cd Shubham
- bash Brute.sh
+ cd Gosai
+ cd Setup
+ bash phising.sh
 
 
 
@@ -87,7 +89,9 @@ elif [ "$N" -eq "2"  ]; then
  git clone https://github.com/ShuBhamg0sain/SGsetup
  cd SGsetup
  cd Shubham
- bash Brute.sh
+ cd Gosai
+ cd Setup
+ bash phising.sh
 
 
 
@@ -121,7 +125,9 @@ elif [ "$N" -eq "3"  ]; then
  git clone https://github.com/ShuBhamg0sain/SGsetup
  cd SGsetup
  cd Shubham
- bash Brute.sh
+ cd Gosai
+ cd Setup
+ bash phising.sh
 
 
 
@@ -155,7 +161,9 @@ elif [ "$N" -eq "4"  ]; then
  git clone https://github.com/ShuBhamg0sain/SGsetup
  cd SGsetup
  cd Shubham
- bash Brute.sh
+ cd Gosai
+ cd Setup
+ bash phising.sh
 
 
 
@@ -190,7 +198,9 @@ elif [ "$N" -eq "5"  ]; then
  git clone https://github.com/ShuBhamg0sain/SGsetup
  cd SGsetup
  cd Shubham
- bash Brute.sh
+ cd Gosai
+ cd Setup
+ bash phising.sh
 
 
 
@@ -223,7 +233,9 @@ elif [ "$N" -eq "6"  ]; then
  git clone https://github.com/ShuBhamg0sain/SGsetup
  cd SGsetup
  cd Shubham
- bash Brute.sh
+ cd Gosai
+ cd Setup
+ bash phising.sh
 
 
 
@@ -254,7 +266,9 @@ elif [ "$N" -eq "7"  ]; then
  git clone https://github.com/ShuBhamg0sain/SGsetup
  cd SGsetup
  cd Shubham
- bash Brute.sh
+ cd Gosai
+ cd Setup
+ bash phising.sh
 
 
 
@@ -288,7 +302,9 @@ elif [ "$N" -eq "8"  ]; then
  git clone https://github.com/ShuBhamg0sain/SGsetup
  cd SGsetup
  cd Shubham
- bash Brute.sh
+ cd Gosai
+ cd Setup
+ bash phising.sh
 
 
 
@@ -322,7 +338,9 @@ elif [ "$N" -eq "9"  ]; then
  git clone https://github.com/ShuBhamg0sain/SGsetup
  cd SGsetup
  cd Shubham
- bash Brute.sh
+ cd Gosai
+ cd Setup
+ bash phising.sh
 
 
 
@@ -354,7 +372,9 @@ elif [ "$N" -eq "10"  ]; then
  git clone https://github.com/ShuBhamg0sain/SGsetup
  cd SGsetup
  cd Shubham
- bash clone.sh
+ cd Gosai
+ cd Setup
+ bash phising.sh
 
 
 
@@ -375,7 +395,10 @@ elif [ "$N" -eq "0"  ]; then
  cd
  git clone https://github.com/ShuBhamg0sain/SGsetup
  cd SGsetup
- bash Sg.sh
+ cd Shubham
+ cd Gosai
+ cd Setup
+ bash phising.sh
 
 
 
@@ -392,5 +415,5 @@ elif [ "$N" -eq "22"  ]; then
 
 
 else :
- bash Brute.sh
+ bash phising.sh
 fi
