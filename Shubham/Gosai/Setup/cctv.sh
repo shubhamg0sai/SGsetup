@@ -10,10 +10,12 @@ echo "N[3] install Hack_CCTV_Cam-v.3"
 echo "N[4] about me"    
 echo "N[0]  back page "     
 echo "N[22] exit tool"                                     
-
 echo ""
 echo -e "$p"
 read -p  "number-------> " N
+
+
+
 
 
 
@@ -53,6 +55,9 @@ echo "    {Ctrl C} exit "
 
 
 
+
+
+
 elif [ "$N" -eq "2"  ]; then
  cd
  clear
@@ -86,6 +91,9 @@ elif [ "$N" -eq "2"  ]; then
  cd SGsetup
  cd Shubham
  bash cctv.sh
+
+
+
 
 
 
@@ -125,6 +133,9 @@ echo "    {Ctrl C} exit "
 
 
 
+
+
+
 elif [ "$N" -eq "4"  ]; then
  cd
  clear
@@ -157,6 +168,9 @@ elif [ "$N" -eq "4"  ]; then
 
 
 
+
+
+
 elif [ "$N" -eq "0"  ]; then
  cd
  clear
@@ -178,6 +192,9 @@ elif [ "$N" -eq "0"  ]; then
 
 
 
+
+
+
 elif [ "$N" -eq "22"  ]; then
  cd
  echo -e "$g+++++++++++++++>$p[Please Wait]$g<++++++++++++++"
@@ -187,6 +204,9 @@ elif [ "$N" -eq "22"  ]; then
  cd $HOME
  clear
  sleep 2
+
+
+
 
 
 
