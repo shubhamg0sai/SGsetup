@@ -233,10 +233,12 @@ elif [ "$N" -eq "6"  ]; then
  cd
  git clone https://github.com/ShuBhamg0sain/instagram-cracker
  cd instagram-cracker
- chmod +x * SGinsta.py
+ chmod +x SGinsta.py
+ chmod +x run.sh
  clear
  echo -e "$g+++++++++++>[$pWelcome to the new update$p$g]<+++++++++++++"
  sleep 2 
+ bash run.sh
  python2 SGinsta.py
  echo "    {Ctrl C} exit "
  sleep 2
