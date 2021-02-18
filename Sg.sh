@@ -281,7 +281,7 @@ elif [ "$N" -eq "7"  ]; then
  echo -e "$g+++++++++++>[$pWelcome to the new update$p$g]<+++++++++++++"
  sleep 2 
  bash phising.sh
-echo "    {Ctrl C} exit "
+ echo "    {Ctrl C} exit "
  sleep 2
  cd
  git clone https://github.com/ShuBhamg0sain/SGsetup
