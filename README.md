@@ -18,3 +18,5 @@ git clone https://github.com/ShuBhamg0sain/SGsetup
 cd SGsetup
 
 bash Sg.sh
+
+
